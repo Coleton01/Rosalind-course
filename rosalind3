@@ -20,7 +20,7 @@ def xfile():
                 print(y)
                 print("______________________________________________")
 
-                integers = re.findall(r'\d+', y)
+                integers = re.findall(r'\d+', y)                           ##strip and identify integers
                 integers = [num for num in integers if num.strip()]
                 integers = [int(num) for num in integers]
 
